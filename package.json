@@ -2,5 +2,8 @@
   "name": "react-socket-chat",
   "version": "0.0.1",
   "description": "ReactJs & Socket.io chat app",
-  "dependencies": {}
+  "dependencies": {
+    "express": "~4.10.2",
+    "react": "~0.12.2"
+  }
 }
