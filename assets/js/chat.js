@@ -14,26 +14,20 @@
 var ChatBox = React.createClass({
   render: function() {
     return (
-      <div className="chatBox">
-        <ul id="messages"></ul>
-          <form action="">
-            <input id="m" autocomplete="off" /><button>Send</button>
-          </form>
-        {// <ChatMessageList data={this.props.data}/>
-        // <ChatForm />
-      }
-      </div>
+      React.createElement('div', {className: "commentBox"},
+        "Hello, world! I am a ChatBox."
+      )
     );
   }
 });
 
-// var ChatMessage = React.createClass({
-//   render: function() {
-//     return (
-//       <li></li>
-//     );
-//   }
-// }
+var ChatMessage = React.createClass({
+  render: function() {
+    return (
+      React.createElement('li', {}, "")
+    );
+  }
+});
 
 // var ChatMessageList = React.createClass({
 //   var messageNodes = this.props.data.map(function (chatMessage) {
